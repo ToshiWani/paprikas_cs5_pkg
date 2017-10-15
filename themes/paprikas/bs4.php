@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+          crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
+    <link rel="stylesheet" href="<?= $view->getThemePath() ?>/node_modules/vegas/dist/vegas.min.css">
+    <link rel="stylesheet" href="<?= $view->getThemePath() ?>/css/style.css">
+
+</head>
+<body>
+
+<div class="toppage">
+    <div class="row toppage__header" >
+        <!-- Placeholder for the photo -->
+    </div>
+
+    <div class="toppage__picture-border">
+        <!-- Nothing -->
+    </div>
+
+    <div class="row">
+        <div class="col">
+                <img src="<?= $view->getThemePath() ?>/img/paprikas-logo.png" alt="" class="img-responsive">
+
+        </div>
+    </div>
+
+
+</div>
+
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <h1 class="h1 text-center">Welcome!</h1>
+            <p class="h1 text-center">Üdvözöljük!</p>
+            <p class="lead text-center">Welcome to the only Hungarian Restaurant in the Lehigh Valley, Pennsylvania.</p>
+            <p>
+                Welcome to the only Authentic Hungarian Restaurant in the Lehigh Valley, Eastern Pennsylvania. We opened our doors in 1999 and ever since then we have been serving our friends and neighbours some finest Hungarian cuisine's in the Northeast of the United States.
+            </p>
+            <p>
+                Our menu features some of the most popular Hungarian cuisine's that are recognized throughout the world. The menu includes featured dishes such as Chicken Paprikas served with dumpling noodles (Nokedli), Stuffed Cabbage, Beef Paprikas served over dumpling noodles (Nokedli), Goulash Leves, Cabbage Noodles, Cottage Cheese Noodles and our world famous Breaded Porkcops. For dessert we offer homemade Palacsinta (Crepes) with a vasr variety of fillings such as Apricot, Prune Levar, Cottage Cheese and many other traditional fillings. The mentioned entrees are just a small sample of our exciting dishes that we offer at Paprikas Restaurant.
+            </p>
+            <p>
+                Since Paprikas is a family owned and operated restaurant, all of the home cooked meals are prepared by Anya and Apa team. We welcome you to stop by, so you can taste some of the finest Hungarian home cooked meals that we have to offer here at Paprikas Restaurant.
+            </p>
+            <p>
+                Feel free to BYOB your favorite wine to enjoy with out fine cuisine's since we do not have a liquor/beer license.
+            </p>
+            <p class="h2 text-center">
+                Hamarosan Talalkozunk!
+            </p>
+            <p class="h2 text-center">
+                See You Soon!
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<script src="<?= $view->getThemePath() ?>/node_modules/vegas/dist/vegas.min.js"></script>
+<script>
+    (function(){
+
+        $('.toppage__header').vegas({
+
+            slides:[
+                {
+                    src: '<?= $view->getThemePath() ?>/img/spices.jpg',
+                    align: 'left',
+                }
+
+            ]
+        });
+
+    })();
+</script>
+</body>
+</html>
